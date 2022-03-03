@@ -1,0 +1,113 @@
+.projectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50%;
+}
+
+.project {
+    width: 80%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #236267;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 1rem #0b2527;
+}
+
+.projectLabel{
+    background-color: rgba(12, 8, 8, 0.7);
+    border-radius: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.projectImage {
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.projectInfo {
+    font-size: 1rem;
+    color: #40b48e;
+    text-decoration: none;
+    margin: 0.5rem;
+    text-transform: uppercase;
+}
+
+.projectButton {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #40b48e;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    height: 3rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectButton:disabled{
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+@media(max-width:790px){
+    .project{
+        width: 25%;
+    }
+    .projectButton{
+        font-size: 0.7rem;
+        height: 2.5rem;
+    }
+    .projectInfo{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:790px){
+    .projectInfo{
+        font-size: 0.6rem;
+    }
+    .projectButton{
+        margin:0.7rem;
+    }
+
+    .project{
+        width: 80%;
+    }
+}
+
+@media(max-width:415px){
+    .projectButton{
+        font-size: 0.5rem;
+        height: 1.5rem;
+        margin:0.5rem;
+    }
+
+    .projectLabel{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:385px){
+    .project{
+        width: 35%;
+    }
+}

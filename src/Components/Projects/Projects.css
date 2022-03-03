@@ -1,0 +1,26 @@
+/* .projects-array {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+} */
+
+.project-header{
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+}
+
+.collapse{
+ width: 100%;
+}
+
+.jRFJkP, .cNNJIt{
+    background-color: transparent !important;
+}
+
+.gZZBOx{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}

@@ -7,7 +7,7 @@ class Home extends Component {
         super(props);
         this.state = {
             name:'CR Resume',
-            description:'I am web development and I use react and .Net to develop pages'
+            description:'I am web developer and I use React and .Net to develop pages'
         }
     }
 

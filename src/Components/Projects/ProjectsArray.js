@@ -192,4 +192,18 @@ export default [
         git:"https://github.com/cristi-radu9/android-project",
         type:'Other'
     },
+    {
+        label:"Offline Antivirus",
+        image:NoImg,
+        liveDisabled:true,
+        git:"https://github.com/cristi-radu9/offline-antivirus",
+        type:'Other'
+    },
+    {
+        label:"PRNG - A5 LFSR",
+        image:NoImg,
+        liveDisabled:true,
+        git:"https://github.com/cristi-radu9/PRNG-A5-LFSR",
+        type:'Other'
+    },
 ]

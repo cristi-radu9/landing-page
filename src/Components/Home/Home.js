@@ -21,7 +21,7 @@ class Home extends Component {
                         <h3>{description}.</h3>
                         <hr />
                         <ul className="social">
-                            <a href="#home" className="button btn project-btn"><i className="fa fa-book"></i> Project</a>
+                            <a href="https://github.com/cristi-radu9/landing-page" target="_blank" className="button btn project-btn"><i className="fa fa-book"></i> Project</a>
                             <a href="https://github.com/cristi-radu9?tab=repositories" target="_blank" className="button btn github-btn"><i className="fab fa-github"></i> Github</a>
                         </ul>
                     </div>

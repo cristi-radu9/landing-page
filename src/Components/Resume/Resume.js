@@ -38,16 +38,6 @@ class Resume extends Component{
                             </div>
                             <p className="f15">I've studied Economic Informatics the english program at Faculty of Cybernetics, Statistics and Informatics</p>
                         </div>
-                        <div>
-                        <h1 className="m-0">Bucharest University of Economic Studies</h1>
-                            <div className="row">
-                                <p>Master</p>
-                                <ul>
-                                    <li>Present</li>
-                                </ul>
-                            </div>
-                            <p className="f15">I'm studying IT&C security master - cyber security master.</p>
-                        </div>
                     </div>
                 </div>
                 <div className="dividing-bar"></div>
@@ -65,7 +55,7 @@ class Resume extends Component{
                                     <li>2020 - Present</li>
                                 </ul>
                             </div>
-                            <p className="f15"> Junior .Net developer, also doing front-end in React.</p>
+                            <p className="f15"> Junior full stack developer (.NET , React).</p>
                         </div>
                     </div>
                 </div>

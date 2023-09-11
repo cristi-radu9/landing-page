@@ -23,9 +23,7 @@ class About extends Component {
                     </div>
                     <div className="two-columns">
                         <h2>About Me</h2>
-                        <p>I'm a junior developer graduated of computer science with experience working across the full-stack of software development.
-                            I have built 20+ personal projects on different technologies and i'm planning to work on a lot more continuously developing my skills and learning new things.
-                            I'm an positive person full of energy and fun, who never gets tired.</p>
+                        <p>Dedicated and adaptable Full Stack Developer with over 3 years of experience in .NET and React, focused on continuous learning and skill enhancement. Proven track record of successful team leadership and agile project management as a certified Scrum Master 1. A fast learner and excellent team player committed to delivering high-quality results.</p>
                         <div className="row about-responsive">
                             <div className="column about-responsive">
                                 <h2>Contact Details</h2>
@@ -38,7 +36,7 @@ class About extends Component {
                             </div>
                             <div className="download about-responsive">
                                 <p>
-                                    <a href="" className="button" download="Radu_Cristian-Marian_CV.pdf"><i className="fa fa-download"></i> Download Resume</a>
+                                    <a href="" className="button" onClick={()=>alert("Not available!")}><i className="fa fa-download"></i> Download Resume</a>
                                 </p>
                             </div>
                         </div>
